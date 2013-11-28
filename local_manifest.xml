@@ -2,6 +2,7 @@
 <manifest>
 
  <!--Repositories to remove-->
+  <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <remove-project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
 
   <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
@@ -34,6 +35,7 @@
   <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="github" revision="master"/>
 
  <!--Custom versions of generic repositories-->
+  <project path="frameworks/av" name="Team-SennyC2/android_frameworks_av" groups="pdk" />
   <project path="packages/providers/MediaProvider" name="Team-SennyC2/android_packages_providers_MediaProvider" />
 
 </manifest>
