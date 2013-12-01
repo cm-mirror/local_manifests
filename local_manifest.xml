@@ -25,7 +25,7 @@
   <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
 
  <!--Device-specific repositories-->
-  <project path="hardware/qcom/display-legacy" name="Team-SennyC2/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display" name="Team-SennyC2/android_hardware_qcom_display" remote="github" revision="cm-11.0" />
 
   <project path="device/htc/pyramid" name="Team-SennyC2/android_device_htc_pyramid" remote="github" revision="cm-11.0" />
   <project path="vendor/htc-extra/pyramid" name="Team-SennyC2/android_vendor_htc_pyramid" remote="github" revision="cm-11.0" />
