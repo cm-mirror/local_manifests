@@ -23,7 +23,7 @@
 
  <!--Device-specific repositories-->
   <project path="device/htc/pyramid" name="Team-SennyC2/android_device_htc_pyramid" remote="github" revision="cm-11.0" />
-  <project path="vendor/htc-extra/pyramid" name="Team-SennyC2/android_vendor_htc_pyramid" remote="github" revision="cm-11.0" />
+  <project path="vendor/htc/pyramid" name="Team-SennyC2/android_vendor_htc_pyramid" remote="github" revision="cm-11.0" />
   <project path="kernel/htc/pyramid" name="Team-SennyC2/senny_kernel-3.4" remote="github" revision="cm-11.0-caf" />
 
  <!--Linaro toolchain-->
