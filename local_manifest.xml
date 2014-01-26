@@ -27,7 +27,7 @@
   <project path="kernel/htc/pyramid" name="Team-SennyC2/senny_kernel-3.4" remote="github" revision="cm-11.0-caf" />
 
  <!--Linaro toolchain-->
-  <project path="prebuilt/linux-x86/toolchain" name="Christopher83/toolchains" remote="github" revision="2013.12" />
+  <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="github" revision="2014.01" />
 
  <!--Extra repositories-->
   <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="github" revision="master"/>
