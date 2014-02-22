@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!--Repositories to remove-->
-  <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
-  <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
-  <remove-project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <!--Repositories to remove-->
   <remove-project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <remove-project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
@@ -17,16 +14,13 @@
   <remove-project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <remove-project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <remove-project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
 
- <!--Device-specific repositories-->
-  <project path="device/htc/pyramid" name="siema/cm_android_device_htc_pyramid" remote="github" revision="cm-11.0" />
-  <project path="vendor/htc" name="siema/cm_proprietary_vendor_htc" remote="github" revision="cm-11.0" />
-  <project path="kernel/htc/pyramid" name="Team-SennyC2/senny_kernel-3.4" remote="github" revision="cm-11.0-caf" />
+  <!--Device-specific repositories-->
+  <project path="device/htc/pyramid" name="siema/cm_android_device_htc_pyramid" remote="gh" revision="carbon-kk" />
+  <project path="vendor/htc" name="siema/cm_proprietary_vendor_htc" remote="gh" revision="cm-11.0" />
+  <project path="kernel/htc/pyramid" name="Team-SennyC2/senny_kernel-3.4" remote="gh" revision="cm-11.0-caf" />
 
- <!--Linaro toolchain-->
-  <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="github" revision="2014.01" />
-  
+  <!--Linaro toolchain-->
+  <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="gh" revision="2014.01" />
+
 </manifest>
