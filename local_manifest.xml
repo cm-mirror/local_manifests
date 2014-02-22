@@ -22,14 +22,11 @@
   <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
 
  <!--Device-specific repositories-->
-  <project path="device/htc/pyramid" name="Team-SennyC2/android_device_htc_pyramid" remote="github" revision="cm-11.0" />
-  <project path="vendor/htc/pyramid" name="Team-SennyC2/android_vendor_htc_pyramid" remote="github" revision="cm-11.0" />
+  <project path="device/htc/pyramid" name="garaddon/android_device_htc_pyramid" remote="github" revision="cm-11.0" />
+  <project path="vendor/htc" name="Team-SennyC2/proprietary_vendor_htc" remote="github" revision="cm-11.0" />
   <project path="kernel/htc/pyramid" name="Team-SennyC2/senny_kernel-3.4" remote="github" revision="cm-11.0-caf" />
 
  <!--Linaro toolchain-->
   <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="github" revision="2014.01" />
-
- <!--Extra repositories-->
-  <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="github" revision="master"/>
   
 </manifest>
