@@ -2,15 +2,6 @@
 <manifest>
 
   <!--Repositories to remove-->
-  <remove-project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
-  <remove-project path="packages/apps/CarbonDelta" name="CarbonDev/android_packages_apps_CarbonDelta" />
-  <remove-project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <remove-project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
-  <remove-project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <remove-project path="packages/apps/HALO" name="UltimatumKang/HALO" />
-  <remove-project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
-  <remove-project path="packages/apps/ROMStats" name="CarbonDev/android_packages_apps_ROMStats" />
-  <remove-project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
   <remove-project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <remove-project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <remove-project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
@@ -30,8 +21,8 @@
   <remove-project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
 
   <!--Device-specific repositories-->
-  <project path="device/htc/pyramid" name="siema/cm_android_device_htc_pyramid" remote="gh" revision="carbon-kk" />
-  <project path="vendor/htc" name="siema/cm_proprietary_vendor_htc" remote="gh" revision="cm-11.0" />
+  <project path="device/htc/pyramid" name="siema/android_device_htc_pyramid_kernel_3.4" remote="gh" revision="carbon-kk" />
+  <project path="vendor/htc" name="siema/proprietary_vendor_htc" remote="gh" revision="cm-11.0" />
   <project path="kernel/htc/pyramid" name="Team-SennyC2/senny_kernel-3.4" remote="gh" revision="cm-11.0-caf" />
 
   <!--Linaro toolchain-->
