@@ -2,6 +2,20 @@
 <manifest>
 
   <!--Repositories to remove-->
+  <remove-project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
+  <remove-project path="packages/apps/CarbonDelta" name="CarbonDev/android_packages_apps_CarbonDelta" />
+  <remove-project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
+  <remove-project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
+  <remove-project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
+  <remove-project path="packages/apps/HALO" name="UltimatumKang/HALO" />
+  <remove-project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
+  <remove-project path="packages/apps/ROMStats" name="CarbonDev/android_packages_apps_ROMStats" />
+  <remove-project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
+  <remove-project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
+  <remove-project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
+  <remove-project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+  <remove-project path="hardware/qcom/display" name="CarbonDev/android_hardware_qcom_display" groups="qcom" />
+  <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <remove-project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <remove-project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
