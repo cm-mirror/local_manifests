@@ -28,7 +28,6 @@
   <!--Device-specific repositories-->
   <project path="kernel/htc/pyramid" name="sultanxda/sultan-kernel-pyramid" remote="gh" revision="master" />
   <project path="device/htc/msm8660-common" name="sultanxda/android_device_htc_msm8660-common" remote="gh" revision="cm-11.0" />
-  <project path="device/htc/pyramid" name="siema/android_device_htc_pyramid_kernel_3.0" remote="gh" revision="carbon-kk" />
   <project path="vendor/htc" name="sultanxda/android_vendor_htc" remote="gh" revision="cm-11.0" />
 
   <!--Custom (modified) generic repositories-->
@@ -40,5 +39,15 @@
   <project path="frameworks/av" name="sultanxda/android_frameworks_av" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="sultanxda/android_hardware_qcom_media-caf" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf" name="sultanxda/android_hardware_qcom_display-caf" remote="gh" revision="cm-11.0" />
+  
+  <!--Remote additions -->
+  <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="gh" revision="android-4.4" />
+  
+  <!-- My repos (to manually keep track of upstream) -->
+  <project path="device/htc/pyramid" name="siema/android_device_htc_pyramid_kernel_3.0" remote="gh" revision="carbon-kk" />
+  <remove-project path="packages/apps/Settings" name="CarbonDev/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="siema/android_packages_apps_Settings" remote="gh" revision="kk" />
+  <remove-project path="frameworks/base" name="CarbonDev/android_frameworks_base" />
+  <project path="frameworks/base" name="siema/android_frameworks_base" remote="gh" revision="kk" />
 
 </manifest>
