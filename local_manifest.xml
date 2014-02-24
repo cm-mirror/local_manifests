@@ -41,7 +41,4 @@
   <project path="hardware/qcom/media-caf" name="sultanxda/android_hardware_qcom_media-caf" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf" name="sultanxda/android_hardware_qcom_display-caf" remote="gh" revision="cm-11.0" />
 
-  <!--Linaro toolchain-->
-  <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="gh" revision="2014.01" />
-
 </manifest>
