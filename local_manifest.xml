@@ -2,6 +2,8 @@
 <manifest>
 
   <!--Repositories to remove-->
+  <remove-project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
+  <remove-project path="packages/apps/Gallery2" name="CarbonDev/android_packages_apps_Gallery2" />
   <remove-project path="packages/apps/CarbonDelta" name="CarbonDev/android_packages_apps_CarbonDelta" />
   <remove-project path="packages/apps/HALO" name="UltimatumKang/HALO" />
   <remove-project path="packages/apps/ROMStats" name="CarbonDev/android_packages_apps_ROMStats" />
@@ -26,11 +28,6 @@
   <project path="device/htc/pyramid" name="siema/android_device_htc_pyramid_teamsenny" remote="gh" revision="carbon-kk" />
   <project path="vendor/htc" name="Team-SennyC2/proprietary_vendor_htc" remote="gh" revision="cm-11.0" />
   <project path="kernel/htc/pyramid" name="Team-SennyC2/senny_kernel-3.4" remote="gh" revision="cm-11.0-caf" />
-  
-  <project path="device/lge/hammerhead" name="siema/android_device_lge_hammerhead" remote="gh" revision="carbon-kk" />
-  <project path="vendor/lge" name="CarbonDev/proprietary_vendor_lge" remote="gh" revision="kk" />
-  <project path="kernel/lge/hammerhead" name="labodj/hammerhead-linaro" remote="gh" revision="master" />
-  <!--<project path="kernel/lge/hammerhead" name="CarbonDev/android_kernel_lge_hammerhead" remote="gh" revision="kk" />-->
 
   <!--Linaro toolchain-->
   <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="gh" revision="2014.01" />
