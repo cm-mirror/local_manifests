@@ -36,4 +36,7 @@
   <!--Linaro toolchain-->
   <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="gh" revision="2014.01" />
 
+  <!--My additions-->
+  <project path="vendor/siema" name="siema/android_vendor_siema" remote="gh" revision="kk" />
+  
 </manifest>
