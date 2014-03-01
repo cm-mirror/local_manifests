@@ -4,7 +4,6 @@
   <!--Repositories to remove-->
   <remove-project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <remove-project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <remove-project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <remove-project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <remove-project path="packages/apps/Mms" name="CarbonDev/android_packages_apps_Mms" />
   <remove-project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
