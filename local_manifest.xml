@@ -32,8 +32,8 @@
   <remove-project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
 
   <!--Device-specific repositories-->
-  <project path="kernel/htc/pyramid" name="sultanxda/sultan-kernel-pyramid-pure" remote="github" revision="cm-11.0" />
-  <project path="device/htc/msm8660-common" name="sultanxda/android_device_htc_msm8660-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/htc/pyramid" name="sultanxda/sultan-kernel-pyramid-pure" remote="gh" revision="cm-11.0" />
+  <project path="device/htc/msm8660-common" name="sultanxda/android_device_htc_msm8660-common" remote="gh" revision="cm-11.0" />
   <project path="device/htc/pyramid" name="siema/android_device_htc_pyramid_sultanxda" remote="gh" revision="carbon-kk" />
   <project path="vendor/htc" name="sultanxda/android_vendor_htc" remote="gh" revision="cm-11.0" />
 
