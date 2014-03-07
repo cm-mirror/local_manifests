@@ -2,7 +2,6 @@
 <manifest>
 
   <!--Repositories to remove-->
-  <remove-project path="frameworks/opt/telephony-msim" name="CyanogenMod/android_frameworks_opt_telephony-msim" />
   <remove-project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <remove-project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <remove-project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
