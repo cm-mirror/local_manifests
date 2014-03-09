@@ -3,19 +3,19 @@
 
   <!--Repositories to remove-->
   <remove-project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
+  <remove-project path="packages/apps/CarbonDelta" name="CarbonDev/android_packages_apps_CarbonDelta" />
   <remove-project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <remove-project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <remove-project path="packages/apps/Mms" name="CarbonDev/android_packages_apps_Mms" />
-  <remove-project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
-  <remove-project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
   <remove-project path="packages/apps/Gallery2" name="CarbonDev/android_packages_apps_Gallery2" />
-  <remove-project path="packages/apps/CarbonDelta" name="CarbonDev/android_packages_apps_CarbonDelta" />
   <remove-project path="packages/apps/HALO" name="UltimatumKang/HALO" />
+  <remove-project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
+  <remove-project path="packages/apps/Mms" name="CarbonDev/android_packages_apps_Mms" />
   <remove-project path="packages/apps/ROMStats" name="CarbonDev/android_packages_apps_ROMStats" />
   <remove-project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
-  <remove-project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
-  <remove-project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
-  <remove-project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+  <remove-project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
+  <remove-project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
+  <remove-project path="hardware/qcom/display" name="CarbonDev/android_hardware_qcom_display" />
+  <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <remove-project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
@@ -33,11 +33,6 @@
   <project path="device/htc/pyramid" name="siema/android_device_htc_pyramid_teamsenny" remote="gh" revision="carbon-kk" />
   <project path="vendor/htc" name="Team-SennyC2/proprietary_vendor_htc" remote="gh" revision="cm-11.0" />
   <project path="kernel/htc/pyramid" name="Team-SennyC2/senny_kernel-3.4" remote="gh" revision="cm-11.0-caf" />
-  
-  <project path="device/lge/hammerhead" name="siema/android_device_lge_hammerhead" remote="gh" revision="carbon-kk" />
-  <project path="vendor/lge" name="CarbonDev/proprietary_vendor_lge" remote="gh" revision="kk" />
-  <project path="kernel/lge/hammerhead" name="labodj/hammerhead-linaro" remote="gh" revision="master" />
-  <!--<project path="kernel/lge/hammerhead" name="CarbonDev/android_kernel_lge_hammerhead" remote="gh" revision="kk" />-->
 
   <!--Linaro toolchain-->
   <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="gh" revision="2014.01" />
