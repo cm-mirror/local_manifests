@@ -3,16 +3,17 @@
 
   <!--Repositories to remove-->
   <remove-project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
+  <remove-project path="packages/apps/CarbonDelta" name="CarbonDev/android_packages_apps_CarbonDelta" />
   <remove-project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <remove-project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <remove-project path="packages/apps/Mms" name="CarbonDev/android_packages_apps_Mms" />
-  <remove-project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
-  <remove-project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
   <remove-project path="packages/apps/Gallery2" name="CarbonDev/android_packages_apps_Gallery2" />
-  <remove-project path="packages/apps/CarbonDelta" name="CarbonDev/android_packages_apps_CarbonDelta" />
   <remove-project path="packages/apps/HALO" name="UltimatumKang/HALO" />
+  <remove-project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
+  <remove-project path="packages/apps/Mms" name="CarbonDev/android_packages_apps_Mms" />
   <remove-project path="packages/apps/ROMStats" name="CarbonDev/android_packages_apps_ROMStats" />
   <remove-project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
+  <remove-project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
+  <remove-project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
   <remove-project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <remove-project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <remove-project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
